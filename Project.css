@@ -1,0 +1,113 @@
+
+body{
+  text-align: center;
+}
+/*for home page*/
+.c1{
+  height: 40vh;
+}
+/*second part of webpage*/
+.mainDiv{
+  margin: auto;
+  padding-top: 20px;
+  box-shadow: 5px 5px 5px 5px #D195E4;
+}
+.logo{
+  box-shadow: 0px 0px 0px 0px ;
+  border-radius: 60%;
+  width:8%;
+  height: 8%;
+}
+.Header{
+  display: flex;
+}
+/*for logo of header*/
+.mainH{
+  color: red;
+  margin-left: 20px;
+  width:75%;
+  mix-blend-mode: difference;
+}
+/*for paragraph*/
+p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*for each pary of part 2*/
+.S{
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*second half of web page*/
+.sub2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+img{
+  width:300px;
+  height: 250px;
+  border: thin 5px;
+  border-color: lightcoral;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px 0px #BAE8F3;
+}
+.text{
+  text-align: center;
+  width:190px;
+}
+/*for home page*/
+.Home{
+   width:90vw;
+   height:275px;
+   padding-left: 50px;
+}
+footer{
+  text-align: center;
+  width: 50vw;
+  text-decoration:overline;
+
+}
+/*for tab view*/
+@media screen and (min-width:320px) and (max-width:500px){
+.Home{
+  width:90vw;
+  height:250px;
+  padding-left: 0px;
+}
+.mainH{
+  width: 75vw;
+}
+.logo{
+  height:100px;
+  width: 100px;
+  text-align: center;
+}
+
+.S{
+  width: 50%;
+}
+
+}
+/*for mobile view*/
+@media screen and (min-width:501px) and (max-width:780px){
+
+  .Home{
+    width:90vw;
+    height:200px;
+    padding-left: 0px;
+  }
+  .logo{
+    height:100px;
+    width: 100px;
+    text-align: center;
+  }
+  .mainH{
+    width: 75vw;
+  }
+}
